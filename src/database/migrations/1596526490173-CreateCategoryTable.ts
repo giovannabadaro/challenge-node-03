@@ -9,7 +9,7 @@ export default class CreateCategoryTable1596526490173
         columns: [
           {
             name: 'id',
-            type: 'varchar',
+            type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
           },
